@@ -1,15 +1,16 @@
-collector
-tc_loader
-net.bpf.o
-*.o
-*.out
+# Node
+node_modules/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Development snapshots / old versions
-collector.*.c
-collector.old.c
-collector.phase*.c
-collector.phase*.complete
-collector.phase*.backup.c
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
 
-# Local loader binary
-loader
+# Runtime
+*.log

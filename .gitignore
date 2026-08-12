@@ -3,3 +3,13 @@ tc_loader
 net.bpf.o
 *.o
 *.out
+
+# Development snapshots / old versions
+collector.*.c
+collector.old.c
+collector.phase*.c
+collector.phase*.complete
+collector.phase*.backup.c
+
+# Local loader binary
+loader

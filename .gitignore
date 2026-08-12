@@ -14,3 +14,9 @@ venv/
 
 # Runtime
 *.log
+
+# Compiled binaries / eBPF objects
+collector
+tc_loader
+loader
+*.bpf.o
